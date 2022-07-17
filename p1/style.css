@@ -1,0 +1,277 @@
+
+
+/*body*/
+body{
+	padding:0;
+	margin:0;
+    background: #f4f4f4;
+}
+/*container*/
+.container{
+	 width: 976px;
+	 background: #f4f4f4;
+	  margin: auto;
+	 
+}
+.foot_bottom{
+	background: rgba(255, 0, 0, 0);
+}
+/*t0p bar*/
+.top_baar {
+    
+    height: 17px;
+    background-color: black;
+   
+}.bottom {
+    
+   border-bottom:2px solid black;
+ 
+   
+}
+/*Navigation bar*/
+
+/*header*/
+.header {
+    padding-top: 20px;
+    margin-left:6px;
+}
+
+/*nav margins*/
+.nav-margins {
+   font-size:13px;
+   margin-bottom:29px;
+    margin-top:-8px;
+	
+  font-family:Sans-serif;
+  padding-bottom:auto;
+}
+
+/*nav ulz*/
+.nav-ulz li {
+    float: left;
+    margin-left: 67px;
+	font-size:12px;
+	 font-family:Sans-serif;
+	 margin-right: 0px;
+	 margin-bottom:70px;
+	
+}
+
+.ul,
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*nav text*/
+.text-right {
+    text-align: right;
+}
+.float-right {
+    float: right;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.float-left {
+    float: left;
+}
+
+/*banner*/
+
+.banner.overflow-hidden {
+   background-image: url(images/background.jpg) ;
+
+    padding-top: 10px;
+	padding-left: 30px;
+    width: 100%;
+	
+}
+/*banner heading*/
+.banner__h {
+    font-size: 93px;
+    margin: 0;
+    line-height: 0.9;
+	font-family:Sans-serif;
+	color:white;
+	text-shadow: 1px 2px   #cc5200; 
+}
+/*text*/
+.banner__text {
+    width: 100%;
+    max-width: 50%;
+    padding-left: auto;
+    padding-top: 22px;
+
+	
+}
+/*links*/
+.banner__links {
+    background: black;
+    padding: 12px;
+    max-width: 87%;
+ font-family:Monaco;
+ margin-top: 20px;
+ font-size:15px;
+}
+
+.banner__links a:last-child {
+    float: right;
+}
+.banner__links a {
+    color: white;
+	font-family:Monaco;
+}
+
+/*contantbar*/
+.contantbar {
+   padding-bottom: 10px;
+    overflow: hidden;
+	  
+    
+}
+
+h2 {
+	
+    border-bottom: black 6px solid;
+    padding-bottom: 10px;
+	border-width:10px;
+}
+.wd {
+    float: left;
+	width: 100%;
+    max-width: 32%;
+    margin-right: 18px;
+	
+    font-size: 12px;
+    font-family: "Arial";
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+.wd:last-child {
+    margin-right: auto;
+}
+.ul_pic {
+    list-style-image: url(images/tic.png);
+    margin-left: 30px;
+}
+
+/* bel botom*/
+
+
+.bel_botom.overflow-hidden {
+    border-top: 1px solid ;
+	border-color:#999999;
+}
+
+.img_bel {
+    width: 19%;
+    float: left;
+    margin-right: 68px;
+	
+}
+.img_bel:last-child {
+    margin-right: 0;
+}
+a.aa {
+    position: relative;
+    top: -21px;
+    left: 160px;
+    text-decoration: none;
+    background-color:  #ff9900;
+    color: black;
+    font-size: 16px;
+	text-align:center;
+}
+
+
+/* footer part 1*/
+
+.footer{
+    border-top: 1px solid ;
+	border-color:#999999;
+    overflow: hidden;
+}
+.foot_l{
+    width: 67%;
+    float: left;
+    font-family: "Arial";
+}
+.foot_r{
+    float: right;
+    width: 23%;
+    
+}
+.foot_r li{
+    float: left;
+    margin-right: 15px;
+}
+/* footer part 2*/
+
+.foot_botom{
+    background-color: #e2e2e2;
+}
+
+.bot_l li {
+	/*line-height: 1.9;*/
+	margin-top: 10px;
+    float: left;
+    border-right: 2px solid ;
+	border-color:#808080;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 35px 0px;
+	font-size:10px;
+	font-family:Sans-serif,Verdana; 
+	font-weight: bold;
+}
+
+
+/*   media screen */
+
+@media screen and (max-width: 730px) {
+  .wd {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin-right: 12px;
+    font-size: 12px;
+    font-family: "Arial";
+}  
+    .float-left {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+    .float-right {
+    float: none;
+    padding-top: 65px;
+    padding-left: 107px;
+    padding-bottom: 40px;
+}
+    .bot_l li {
+    float: none;
+    border-right: 2px solid black;
+    padding-right: 26px;
+    padding-left: 13px;
+    margin: 23px 0px;
+}
+    .banner {
+    background-image: url(images/logs_07.jpg);
+    padding-top: 20px;
+    width: 100%
+}
+    
+
+.top_baar {
+    height: 17px;
+    background-color: black;
+}
+    
+    
+}
+   
+/*   end */
